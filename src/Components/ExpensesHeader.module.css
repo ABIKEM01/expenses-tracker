@@ -1,0 +1,119 @@
+.title {
+    text-align: center;
+}
+
+.total {
+    text-align: left;
+}
+
+.expensesHeader p {
+    font-weight: bold;
+    text-align: left;
+}
+
+.incomeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.incomeInner {
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    background-color: whitesmoke;
+    align-items: center;
+
+}
+
+.incomeContainer h3 {
+    color: black;
+}
+
+.expensesHeader {
+    text-align: center;
+}
+
+.expensesInner {
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+.incomeLeft {
+    color: green;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.incomerigth {
+    color: red;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.formContainer input {
+    padding: 0.4rem 0;
+}
+
+.formContainer button {
+    margin-top: 20px;
+    padding: 0.6rem 0;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formContainer button:hover {
+    background-color: white;
+    color: blueviolet;
+    transform: scale(1.05);
+    transition: all 0.5s ease-in;
+}
+
+.historyContainer {
+    margin: 0 20px;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    border-right: 3px solid red;
+    padding: 6px 0;
+
+}
+
+.deleteHandler {
+    font-size: 1rem;
+    color: red;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.historyFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.historyFlex button {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
