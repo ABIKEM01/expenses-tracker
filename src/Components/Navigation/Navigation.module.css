@@ -1,0 +1,102 @@
+.navigation {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 20;
+}
+
+.navigationFlex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #002663;
+    height: 5rem;
+    margin: 0;
+}
+
+.hamburger {
+    color: white;
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.home,
+.rooms {
+    display: block;
+}
+
+.navigationFlex li {
+    list-style: none;
+    font-size: 1.5rem;
+    margin-right: 3rem;
+}
+
+.navigationFlex li a {
+    text-decoration: none;
+    color: white;
+}
+
+.beach {
+    border: 2px solid white;
+    padding: 3px 12px;
+    font-size: 1rem;
+}
+
+.beachResort {
+    color: orangered;
+}
+
+.homeMobile,
+.roomsMobile {
+    background-color: #002663;
+    width: 50%;
+    color: white;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 1rem;
+}
+
+.homeMobile:hover {
+    text-decoration: underline 3px orangered;
+    transform: scale(1.06);
+    transition: all 0.5s ease-in-out;
+}
+
+.roomsMobile:hover {
+    text-decoration: underline 3px orangered;
+    transform: scale(1.06);
+    transition: all 0.5s ease-in-out;
+}
+
+.homeMobile a,
+.roomsMobile a {
+    color: white;
+}
+
+
+@media (max-width: 680px) {
+    .navigationFlex {
+        height: 2.5rem;
+        margin: 0;
+        justify-content: space-between;
+    }
+
+    .navigationFlex li {
+        font-size: 1rem;
+        margin-right: 0;
+    }
+
+    .hamburger {
+        color: white;
+        display: block;
+    }
+
+    .home {
+        display: none;
+    }
+
+    .rooms {
+        display: none;
+    }
+}

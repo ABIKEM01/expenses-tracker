@@ -1,0 +1,89 @@
+.bannerContainer {
+    margin-top: 0;
+    background-image: url(../../images/john-fornander-tVzyDSV84w8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 35rem;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bannerContainerInner {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20rem;
+    width: 50rem;
+    margin: 0 auto;
+}
+
+
+.bannerTitle {
+    margin-top: 0;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.bannerHr {
+    border: 3px solid #af9a7d;
+    width: 10rem;
+}
+
+.bannerRoom {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.bannerBtn {
+    cursor: pointer;
+    background-color: #af9a7d;
+    color: rgba(0, 0, 0, 0.726);
+    font-size: 1.1rem;
+    padding: 0.2rem 1.3rem;
+}
+
+.bannerBtn:hover {
+    background: none;
+    border: 2px solid #af9a7d;
+    transition: all 0.5s ease-in;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .bannerContainerInner {
+        height: 10rem;
+        width: 20rem;
+    }
+
+    .bannerTitle {
+        margin-top: 0;
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .bannerHr {
+        margin-top: 0;
+        width: 5rem;
+        margin-bottom: 10px;
+    }
+
+    .bannerRoom {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .bannerBtn {
+        margin-top: 0;
+        font-size: 1.1rem;
+        padding: 0.2rem 1.3rem;
+    }
+}

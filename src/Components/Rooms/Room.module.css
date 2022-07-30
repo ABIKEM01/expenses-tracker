@@ -1,0 +1,295 @@
+.container {
+    background-image: url(../../images/room-1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.roomsContainer {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15rem;
+    width: 40rem;
+    margin: 0 auto;
+}
+
+.roomsTitle {
+    margin-top: 1rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.roomsHr {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 3px solid;
+    color: #af9a7d;
+    font-weight: bolder;
+    width: 10rem;
+}
+
+.roomsRoom {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.roomsBtn {
+    cursor: pointer;
+    background-color: #af9a7d;
+    color: rgba(0, 0, 0, 0.726);
+    font-size: 1.1rem;
+    padding: 0.2rem 1.3rem;
+}
+
+.roomsBtn:hover {
+    background: none;
+    border: 2px solid #af9a7d;
+    transition: all 0.5s ease-in;
+}
+
+.searchTitleContainer {
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.searchMainflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.selectCapacity,
+.selectnumber {
+    padding: 3px 15px;
+    font-size: 1rem;
+}
+
+.selectCapacity,
+.selectnumber option {
+    width: 140px;
+}
+
+.numberstyles {
+    padding: 4px 10px;
+    width: 60px;
+    border-radius: 3px;
+}
+
+.searchColoumnflex {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.searchColoumnflexSize {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imagesFlex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+}
+
+.featuredroomsTitle {
+    text-align: center;
+    margin: 100px 0;
+    font-size: 2.5rem;
+}
+
+.featuredrooms {
+
+    height: 230px;
+    width: 400px;
+    position: relative;
+    margin: 0;
+    margin-bottom: 1rem;
+    box-shadow: 0 5px 10px #000500;
+}
+
+.featuredrooms:hover {
+    transform: scale(1.04);
+    transition: all 0.5s ease-in-out;
+    opacity: 0.7;
+}
+
+.featuredPrice {
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    width: 67px;
+    height: 44px;
+    background-color: black;
+    color: white;
+    border-bottom-right-radius: 10px;
+    margin-top: 0;
+}
+
+.featuredroomsmain {
+    background-color: #ffffff;
+    height: 20rem;
+}
+
+.featuredImag {
+    width: 100%;
+    /* height: 237px;
+    width: 421px; */
+}
+
+.nigth {
+    font-size: 9px;
+}
+
+.featuredName {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #a4cfdf;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    height: 20px;
+    width: 400px;
+
+}
+
+.featuredBtn {
+    cursor: pointer;
+    background-color: #af9a7d;
+    color: rgba(0, 0, 0, 0.726);
+    font-size: 1.1rem;
+    padding: 0.2rem 1.3rem;
+    position: absolute;
+    top: 40%;
+    margin: 0 auto;
+    right: 40%;
+}
+
+.featuredBtn:hover {
+    display: block;
+    background: none;
+    border: 2px solid #af9a7d;
+    transition: all 0.5s ease-in;
+
+}
+
+.featuredroomsInner {
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .roomsContainer {
+        height: 10rem;
+        width: 20rem;
+    }
+
+    .roomsTitle {
+        margin-top: 0;
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .roomsHr {
+        margin-top: 0;
+        width: 5rem;
+        margin-bottom: 10px;
+    }
+
+    .roomsRoom {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .roomsBtn {
+        margin-top: 0;
+        font-size: 1.1rem;
+        padding: 0.2rem 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .featuredroomsTitle {
+        margin: 50px 0;
+        font-size: 1.5rem;
+    }
+
+    .featuredrooms {
+
+        height: 200px;
+        width: 350px;
+        margin-bottom: 20px;
+
+    }
+
+    .featuredName {
+        height: 20px;
+        width: 350px;
+        background-color: #a4cfdf;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 0;
+
+    }
+}
+
+@media (max-width: 768px) {
+
+    .searchMainflex {
+        display: none;
+    }
+}

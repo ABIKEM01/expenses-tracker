@@ -1,0 +1,66 @@
+.navigation {
+    margin-top: 7rem;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.navigationFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #002663;
+    height: 5rem;
+    margin: 0;
+}
+
+.navigationFlex li {
+    list-style: none;
+    font-size: 1.5rem;
+    margin-right: 3rem;
+}
+
+.navigationFlex li a {
+    text-decoration: none;
+    color: white;
+}
+
+.beach {
+    border: 2px solid white;
+    padding: 3px 12px;
+    font-size: 1rem;
+}
+
+.beachResort {
+    color: orangered;
+}
+
+
+
+
+@media (max-width: 680px) {
+    .navigationFlex {
+        height: 2.5rem;
+        margin: 0;
+        justify-content: space-between;
+    }
+
+    .navigationFlex li {
+        font-size: 1rem;
+        margin-right: 1.5rem;
+    }
+
+    /* .hamburger {
+        color: white;
+        display: block;
+    }
+
+    .home {
+        display: none;
+    }
+
+    .rooms {
+        display: none;
+    } */
+}

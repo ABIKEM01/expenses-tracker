@@ -1,0 +1,48 @@
+.container {
+    margin-top: 0;
+    background-color: #cfcfcf;
+    height: 25rem;
+}
+
+.services {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 3rem;
+}
+
+.servicesInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 3rem;
+}
+
+.servicesIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconStles {
+    font-size: 2rem;
+    color: #af9a7d;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 0;
+        background-color: #cfcfcf;
+        height: 42rem;
+    }
+
+    .services {
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 1.5rem;
+    }
+}

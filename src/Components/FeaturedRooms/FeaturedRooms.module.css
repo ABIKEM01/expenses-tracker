@@ -1,0 +1,122 @@
+.imagesFlex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.featuredroomsTitle {
+    text-align: center;
+    margin: 100px 0;
+    font-size: 2.5rem;
+}
+
+.featuredrooms {
+    position: relative;
+    margin: 0;
+    height: 230px;
+    width: 400px;
+    margin-bottom: 7rem;
+    box-shadow: 0 5px 10px #000500;
+
+}
+
+.featuredrooms:hover {
+    transform: scale(1.04);
+    transition: all 0.5s ease-in-out;
+    opacity: 0.7;
+}
+
+.featuredPrice {
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    width: 67px;
+    height: 44px;
+    background-color: black;
+    color: white;
+    border-bottom-right-radius: 10px;
+    margin-top: 0;
+}
+
+.featuredroomsmain {
+    background-color: #ffffff;
+    height: 20rem;
+}
+
+.featuredImag {
+    width: 100%;
+}
+
+
+.nigth {
+    font-size: 9px;
+}
+
+.featuredName {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #a4cfdf;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    height: 20px;
+    width: 400px;
+
+
+}
+
+.featuredBtn {
+    cursor: pointer;
+    background-color: #af9a7d;
+    color: rgba(0, 0, 0, 0.726);
+    font-size: 1.1rem;
+    padding: 0.2rem 1.3rem;
+    position: absolute;
+    top: 40%;
+    margin: 0 auto;
+    right: 40%;
+}
+
+.featuredBtn:hover {
+    display: block;
+    background: none;
+    border: 2px solid #af9a7d;
+    transition: all 0.5s ease-in;
+
+}
+
+.featuredroomsInner {
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .featuredroomsTitle {
+        margin: 50px 0;
+        font-size: 1.5rem;
+    }
+
+    .featuredrooms {
+
+        height: 200px;
+        width: 350px;
+        margin-bottom: 20px;
+
+    }
+
+    .featuredName {
+        height: 20px;
+        width: 350px;
+        background-color: #a4cfdf;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 0;
+
+    }
+}
